@@ -1,19 +1,17 @@
 .comment-list {
-    background-color: #66CCFF;
-    max-height:500px;
-    max-width:500px;
-    height:75%;
-    width:75%;
-    border-width:2px;
-    border-style:solid;
-
+    border: 2px dashed #888;
+    background-color: rgba(150, 200, 256, 0.8);
+    min-height: 10px;
+    margin: 15px;
+    display: block;
+    overflow: hidden;
 }
 
 .comment {
+    border: 1px solid black;
     background-color: #9999FF;
-    max-height:500px;
-    max-width:500px;
-    height:75%;
-    width:75%;
-    
+    min-height: 10px;
+    display: block;
+    overflow: hidden;
+    margin: 15px;
 }
