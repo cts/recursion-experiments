@@ -1,0 +1,19 @@
+.outer_div {
+    background-color: #66CCFF;
+    max-height:500px;
+    max-width:500px;
+    height:75%;
+    width:75%;
+    border-width:2px;
+    border-style:solid;
+
+}
+
+.inner_div {
+    background-color: #9999FF;
+    max-height:500px;
+    max-width:500px;
+    height:75%;
+    width:75%;
+    
+}
