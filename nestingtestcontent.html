@@ -1,33 +1,30 @@
 <html>
 <head>
+<script src="http://static.cloudstitch.io/cloudstitch.js"></script>
+<link rel="treesheet" href="nesting.cts" />
+
 </head>
-    <body>
-        <ul class="content-list">
-            <li>item 1</li>
-            <li> item 2:
-                <ul class="content-list-level-1">
-                    <li>level 1, item 1</li>
-                    <li>level 1, item 2</li>
-                    <li>level 1, item 3:
-                        <ul class="content-list-level-2">
-                            <li>level 2, item 1</li>
-                            <li>level 2, item 2</li>
-                        </ul>
-                    </li>
-                    <li>level 1, item 4:
-                        <ul class="content-list-level-2">
-                            <li>level 2, item 1:
-                                <ul class="content-list-level-3">
-                                    <li>level 3, item 1</li>
-                                    <li>level 3, item 2</li>
-                        </ul>
-                            </li>
-                            <li>level 2, item 2</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>item 3</li>
-        </ul>
-    </body>
+<body>
+  <div class="content-comment-list">
+
+    <div class="content-comment">
+      <div class="content-comment-message">1</div>
+    </div>  
+    <div class="content-comment">
+      <div class="content-comment-message">2</div>
+      <div class="content-comment-list">
+        <div class="content-comment">
+          <div class="content-comment-message">2.1</div>
+        </div>  
+        <div class="content-comment">
+          <div class="content-comment-message">2.2</div>
+        </div>  
+      </div><!-- content-comment-list -->
+    </div>  
+    <div class="content-comment">
+      <div class="content-comment-message">3</div>
+    </div>  
+  </div><!-- content-comment-list -->
+
+</body>
 </html>
